@@ -7,13 +7,13 @@ Cuju is a family of open source tools for Google Research Football, one of the r
 | Package | What it does | Install |
 | --- | --- | --- |
 | [cuju](https://github.com/cuju-football/cuju) | The engine. A bit-exact, batched reimplementation of Google Research Football for CUDA and the CPU, with the same states, observations, rewards and done flags as the original for the same seed and actions. | `pip install cuju` |
-| [cuju-render](https://github.com/cuju-football/cuju-render) | The renderer. Watch saved or live matches in the browser, play against the built-in AI or a trained team, export video and data, and follow training as it runs. | `pip install cuju-render` |
+| [cuju-render](https://github.com/cuju-football/render) | The renderer. Watch saved or live matches in the browser, play against the built-in AI or a trained team, export video and data, and follow training as it runs. | `pip install cuju-render` |
 
 Each repository holds its own guides, from a first match to the details of the recording format, and each package keeps the versions of the others it works with in its requirements.
 
 ## Where to start
 
-New to Cuju, start with the [cuju README](https://github.com/cuju-football/cuju#readme), which shows a first batch of matches and how results compare with published Google Research Football numbers. To watch a match, the [cuju-render README](https://github.com/cuju-football/cuju-render#readme) opens one in a few commands.
+New to Cuju, start with the [cuju README](https://github.com/cuju-football/cuju#readme), which shows a first batch of matches and how results compare with published Google Research Football numbers. To watch a match, the [cuju-render README](https://github.com/cuju-football/render#readme) opens one in a few commands.
 
 Questions and ideas are welcome in the discussions of each repository, and bugs in its issues. Testing is internal, and reports of anything that behaves differently from Google Research Football are especially valued.
 
